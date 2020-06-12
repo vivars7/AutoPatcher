@@ -55,4 +55,8 @@ if __name__ == "__main__":
     targetFiles = os.path.join(targetDir, target)
     sourceFiles = os.path.join(sourceDir, target)
 
+    if os.path.sep in target:
+      targetDir = os.path.join(targetDir, target[:target.rindex(os.path.sep)])
+      os.makedirs(targetDir, exist_ok=True)
+
     shutil.copy(sourceFiles, targetFiles)
