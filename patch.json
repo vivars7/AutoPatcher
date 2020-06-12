@@ -1,0 +1,9 @@
+{
+  "sourceDir": "/tmp/deploytest/source",
+  "targetDir": "/tmp/deploytest/target",
+  "backupDir": "/tmp/deploytest/backup",
+  "archiveType": "gztar",
+  "deployList": [
+    "test.txt", "test2.txt", "ft/a.txt", "new.txt"
+  ]
+}

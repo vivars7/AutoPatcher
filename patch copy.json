@@ -1,0 +1,8 @@
+{
+  "sourceDir": "/tmp/test1",
+  "targetDir": "/tmp/test2",
+  "archiveType": "gztar",
+  "deployList": [
+    {"pattern":"*.bak"}
+  ]
+}
